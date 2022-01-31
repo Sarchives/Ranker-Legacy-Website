@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
 import Layout from "../../components/layout"
 import Seo from '../../components/seo'
-import { ProgressIndicator } from '@fluentui/react/lib/ProgressIndicator'
+import { ProgressIndicator } from '@fluentui/react'
 
 export default function Index() {
   const [isLoaded, setIsLoaded] = useState(false);

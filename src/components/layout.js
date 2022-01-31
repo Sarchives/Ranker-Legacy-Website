@@ -62,7 +62,7 @@ const Layout = ({ children }) => {
         <Navbar.Collapse id="navbar">
           <Nav>
             {data.site.siteMetadata.menuLinks.map(link => (
-              <Nav.Link href={link.link} key={link.name} active={window.location.pathname === link.link}>{link.name}</Nav.Link>
+              <Nav.Link href={link.link} key={link.name} active={typeof window !== 'undefined' && window.location.pathname === link.link}>{link.name}</Nav.Link>
             ))}
             <button className="ms-auto antiButton" onClick={() => {
               if (!loggedInUser) {

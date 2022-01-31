@@ -2,7 +2,7 @@ import React, { useEffect } from "react"
 import Layout from "../components/layout"
 import '../styles/CustomStyles.css'
 import Seo from '../components/seo'
-import { ProgressIndicator } from '@fluentui/react/lib/ProgressIndicator'
+import { ProgressIndicator } from '@fluentui/react'
 import { navigate } from "gatsby-link"
 
 export default function Index() {

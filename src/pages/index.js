@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import { DefaultButton } from '@fluentui/react/lib/Button'
+import { DefaultButton } from '@fluentui/react'
 import { navigate } from "@reach/router"
 import '../styles/CustomStyles.css'
 import Seo from '../components/seo'
